@@ -1,0 +1,75 @@
+body{
+    font-family:'roboto';
+}
+
+.nav{
+    margin:-8px;;
+    display:flex;
+    justify-content: space-around;
+    padding:16px;
+    background-color: #1f2937;
+    color:#f9faf8;
+    font-size:24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+ul{
+    display:flex;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    gap:50px;
+}
+
+a{
+    text-decoration: none;
+    color:#f9faf8;
+    font-size: 18px;
+    font-family:'roboto';
+}
+
+.layer1{
+    margin: 0px -8px;
+    padding:100px;
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    gap:16px;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+.sec-text{
+    margin:20px 0px;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.button{
+    background-color: #3882f6;
+    border-radius:5px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#f9faf8;
+    padding:8px 24px;
+    border:5px;
+}
+
+.layer1 .container1{
+   width:600px;
+}
+
+.layer1 .container2{
+    width:500px;
+}
+
+.layer1 .image{
+    width:100%;
+}
+
+
