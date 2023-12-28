@@ -157,4 +157,13 @@ a{
 
 .footer{
     background-color: #1f2937;
+    margin:-8px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .text{
+    font-size: 18px;
+    padding:35px;
+    color: #f9faf8;
 }
