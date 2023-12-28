@@ -2,16 +2,23 @@ body{
     font-family:'roboto';
 }
 
+.logo{
+    display:flex; 
+    height: 50px;
+    flex-shrink: 0;
+}
+
 .nav{
     margin:-8px;;
     display:flex;
-    justify-content: space-around;
-    padding:16px;
+    justify-content: space-between;
+    padding:16px 150px;
     background-color: #1f2937;
     color:#f9faf8;
     font-size:24px;
     font-weight: bold;
     align-items: center;
+    
 }
 
 ul{
@@ -66,10 +73,37 @@ a{
 
 .layer1 .container2{
     width:500px;
+    min-width: 200px;
 }
 
 .layer1 .image{
     width:100%;
 }
 
+.layer2{
+    display:flex;
+    flex-direction: column;
+    background-color: white ;
+    align-items: center;
+    padding: 100px;
+}
+
+.layer2 .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 70px;
+}
+
+.layer2 .header{
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.row .column{
+    width:40%;
+    min-width: 300px;
+}
 
